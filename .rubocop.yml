@@ -1,0 +1,20 @@
+AllCops:
+  Exclude:
+    - db/schema.rb
+Metrics/BlockLength:
+  CountComments: false
+Documentation:
+  Enabled: false
+Metrics/LineLength:
+  Max: 120
+Style/FrozenStringLiteralComment:
+  Enabled: false
+Style/ClassAndModuleChildren:
+  SupportedStyles:
+    - nested
+    - compact
+  Exclude:
+    - test/test_helper.rb
+Style/SymbolProc:
+  Exclude:
+    - db/migrate/*.rb
